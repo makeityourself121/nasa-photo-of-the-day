@@ -20,6 +20,8 @@ useEffect(()=>{
   } 
   button{
       color:red;
+      border-radius: 50%;
+      text-align: center;
       &:hover{
           background-color: royalblue;
       }

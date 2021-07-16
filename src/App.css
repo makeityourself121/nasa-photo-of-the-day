@@ -1,10 +1,62 @@
 .App {
   text-align: center;
 }
-
+nav{
+  background-color: #282c34;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+h2{
+  text-align: left;
+  margin-left: 5%;
+}
+ .date{
+   text-align: left
+ }
+p{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.head{
+  display:flex;
+}
+ input{
+margin-left: 70%;
+margin-bottom:3%;
+width: 18%;
+font-size: 165%;
+display: flex;
+align-items: flex-end;
+margin-top: 3%;
+}
+
+.left-button{
+  position: absolute;
+  left: 300px;
+  top: 510px;
+  z-index: 1;
+}
+
+.right-button{
+position: absolute;
+left: 940px;
+top: 510px;
+z-index: 1;
+}
+.Main{
+  width: 700px;
+  height: 700px;
+}
+.logo{
+  width:10%;
+  display: flex;
+  justify-content: left;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
